@@ -35,11 +35,11 @@ console.log(f);
 g = covid_data.find(n1=>n1[1]=='Thrissur')
 console.log(g);
 //8. Print total number of positive cases
-h = covid_data.reduce((n1,n2)=>n1[2]+n2[2]);
+h = covid_data.reduce((n1,n2)=>n1+n2[2],0);
 console.log(h);
 
 //9. Print total number of curred cases
-i = covid_data.reduce((n1,n2)=>n1[4]+n2[4]);
+i = covid_data.reduce((n1,n2)=>n1+n2[4],0);
 console.log(i);
 
 //10. Print curred cases in Idukki
