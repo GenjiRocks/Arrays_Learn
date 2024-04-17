@@ -46,3 +46,6 @@ console.log(i);
 
 let j = covid_data.find(n1 => n1[1] == 'Idukki')[4];
 console.log(j);
+
+// p = covid_data.map(n1=>n1[1])
+// console.log(p);
