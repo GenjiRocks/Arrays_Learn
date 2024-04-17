@@ -37,6 +37,8 @@ console.log(g);
 //8. Print total number of positive cases
 h = covid_data.reduce((n1,n2)=>n1+n2[2],0);
 console.log(h);
+// covid_data.map(n1=>n1[2]).reduce((a,b)=>a+b)
+
 
 //9. Print total number of curred cases
 i = covid_data.reduce((n1,n2)=>n1+n2[4],0);
