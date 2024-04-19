@@ -18,15 +18,16 @@
 
 // find even numbers from the given array
 
-// b = [[2,10],[50,25],[2,100],[7,66],[33,9]]
+b = [[2,10],[50,25],[2,100],[7,66],[33,9]]
 
-// for(let num of b){
-//     for(let i of num){
-//         if(i%2==0){
-//             console.log(`The even no.s are ${i}`);
-//         }
-//     }
-// }
+for(let num of b){
+        for(let i of num){
+            console.log(i);
+        // if(i%2==0){
+        //     console.log(`The even no.s are ${i}`);
+        // }
+    }
+}
 
 // __________________________________________________________
 
